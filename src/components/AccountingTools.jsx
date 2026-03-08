@@ -113,7 +113,7 @@ export default function AccountingTools() {
               <span className="text-gradient">fully under control</span>
             </h2>
             <p className="text-gray-500 text-lg leading-relaxed">
-              We built accounting and operations tools specifically for Nigerian vendors — so you spend less time on admin and more time growing your brand.
+              We built accounting and operations tools specifically for Nigerian merchants — so you spend less time on admin and more time growing your brand.
             </p>
 
             <div className="space-y-4">

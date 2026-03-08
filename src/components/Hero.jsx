@@ -50,7 +50,7 @@ export default function Hero({ onOpenWaitlist }) {
             <div className="space-y-3">
               <span className="inline-flex items-center gap-2 bg-brand/20 text-brand-200 text-xs font-semibold uppercase tracking-widest px-4 py-2 rounded-full border border-brand/30">
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse-slow" />
-                Early Vendor Access — Now Open
+                Early Merchant Access — Now Open
               </span>
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-[1.12] tracking-tight">
                 Grow Your Business<br />
@@ -61,7 +61,7 @@ export default function Hero({ onOpenWaitlist }) {
                 Marketplace
               </h1>
               <p className="text-white/60 text-lg lg:text-xl leading-relaxed max-w-lg">
-                Join thousands of Nigerian vendors selling gifts, fashion, food, beauty, and more — with smart tools to track sales, manage orders, and scale faster.
+                Join thousands of Nigerian merchants selling gifts, fashion, food, beauty, and more — with smart tools to track sales, manage orders, and scale faster.
               </p>
             </div>
 
@@ -109,7 +109,7 @@ export default function Hero({ onOpenWaitlist }) {
                 </div>
               </div>
               <p className="text-white/50 text-sm">
-                <span className="text-white font-semibold">800+ vendors</span> already on the waitlist
+                <span className="text-white font-semibold">800+ merchants</span> already on the waitlist
               </p>
             </div>
           </div>

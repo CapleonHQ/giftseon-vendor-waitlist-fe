@@ -6,7 +6,7 @@ export default function Footer({ onOpenWaitlist }) {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 lg:py-20 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="text-center lg:text-left max-w-lg">
             <h2 className="text-2xl lg:text-3xl font-bold mb-3">
-              Don't miss your early vendor spot
+              Don't miss your early merchant spot
             </h2>
             <p className="text-white/50 text-base">
               Join hundreds of Nigerian businesses already on the waitlist. Limited early access perks available.
@@ -26,12 +26,12 @@ export default function Footer({ onOpenWaitlist }) {
             <div className="flex items-center mb-4">
               <img
                 src="/logo/giftseon-logo-white.png"
-                alt="Giftseon Vendors"
+                alt="Giftseon merchants"
                 className="h-28 w-auto object-contain"
               />
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
-              Nigeria's premier gift marketplace, connecting vendors with gift shoppers across the country.
+              Nigeria's premier gift marketplace, connecting merchants with gift shoppers across the country.
             </p>
             <div className="flex gap-3 mt-5">
               {['twitter', 'instagram', 'linkedin'].map(social => (
@@ -68,7 +68,7 @@ export default function Footer({ onOpenWaitlist }) {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/30">
           <p>© {new Date().getFullYear()} Giftseon. All rights reserved.</p>
-          <p>Built with ❤️ for Nigerian vendors</p>
+          <p>Built with ❤️ for Nigerian merchants</p>
         </div>
       </div>
     </footer>

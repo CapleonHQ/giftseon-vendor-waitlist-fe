@@ -83,7 +83,7 @@ exports.sendOTP = onCall(
     const resend = new Resend(RESEND_API_KEY.value())
 
     const { error } = await resend.emails.send({
-      from: 'Giftseon Vendors <vendors@giftseon.com>',
+      from: 'Giftseon merchants <merchants@giftseon.com>',
       to: [normalised],
       subject: 'Your Giftseon Vendor Waitlist Verification Code',
       html: `
@@ -106,7 +106,7 @@ exports.sendOTP = onCall(
                           <div style="width:36px;height:36px;background:rgba(255,255,255,0.15);border-radius:10px;display:inline-block;vertical-align:middle;line-height:36px;text-align:center;">
                             🎁
                           </div>
-                          <span style="color:#ffffff;font-size:20px;font-weight:700;vertical-align:middle;">Giftseon Vendors</span>
+                          <span style="color:#ffffff;font-size:20px;font-weight:700;vertical-align:middle;">Giftseon merchants</span>
                         </div>
                       </td>
                     </tr>

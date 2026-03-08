@@ -80,7 +80,7 @@ export default function Features() {
                 Limited Spots Available
               </div>
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2">
-                Be an early vendor. Enjoy exclusive perks.
+                Be an early merchant. Enjoy exclusive perks.
               </h3>
               <p className="text-white/70 text-base max-w-lg">
                 Zero platform fees for your first 3 months. Featured vendor placement. Priority onboarding call. Only for waitlist members.

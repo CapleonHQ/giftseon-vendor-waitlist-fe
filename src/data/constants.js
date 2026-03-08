@@ -66,7 +66,7 @@ export const VENDOR_BENEFITS = [
   {
     icon: '📈',
     title: 'Real-Time Sales Analytics',
-    description: 'Track revenue, orders, and growth trends with powerful dashboards designed for vendors.',
+    description: 'Track revenue, orders, and growth trends with powerful dashboards designed for merchants.',
   },
   {
     icon: '💼',
@@ -91,7 +91,7 @@ export const VENDOR_BENEFITS = [
   {
     icon: '🚀',
     title: 'Early Access Advantage',
-    description: 'Waitlist vendors get featured placement, zero platform fees for 3 months, and priority onboarding.',
+    description: 'Waitlist merchants get featured placement, zero platform fees for 3 months, and priority onboarding.',
   },
 ]
 
@@ -176,6 +176,6 @@ export const TESTIMONIALS = [
     name: 'Fatima M.',
     role: 'Handmade Jewelry, Kano',
     avatar: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&q=80',
-    text: "The early access perks sold me. Zero fees for 3 months and priority placement \u2014 that's a real investment in vendors.",
+    text: "The early access perks sold me. Zero fees for 3 months and priority placement \u2014 that's a real investment in merchants.",
   },
 ]
