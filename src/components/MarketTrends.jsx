@@ -66,7 +66,7 @@ export default function MarketTrends() {
           <span className="section-tag mb-4">Market Insights</span>
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
             The gifting economy is{' '}
-            <span className="text-gradient">booming in Nigeria</span>
+            <span className="text-gradient">booming in Africa</span>
           </h2>
           <p className="mt-4 text-gray-500 text-lg">
             Real data showing vendor revenue potential and top product categories on our platform.

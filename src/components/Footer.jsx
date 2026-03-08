@@ -9,7 +9,7 @@ export default function Footer({ onOpenWaitlist }) {
               Don't miss your early merchant spot
             </h2>
             <p className="text-white/50 text-base">
-              Join hundreds of Nigerian businesses already on the waitlist. Limited early access perks available.
+              Join hundreds of African businesses already on the waitlist. Limited early access perks available.
             </p>
           </div>
           <button onClick={onOpenWaitlist} className="btn-primary shrink-0 text-base px-10">
@@ -31,7 +31,7 @@ export default function Footer({ onOpenWaitlist }) {
               />
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
-              Nigeria's premier gift marketplace, connecting merchants with gift shoppers across the country.
+              Africa's premier gift marketplace, connecting merchants with gift shoppers across the country.
             </p>
             <div className="flex gap-3 mt-5">
               {['twitter', 'instagram', 'linkedin'].map(social => (
@@ -68,7 +68,7 @@ export default function Footer({ onOpenWaitlist }) {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/30">
           <p>© {new Date().getFullYear()} Giftseon. All rights reserved.</p>
-          <p>Built with ❤️ for Nigerian merchants</p>
+          <p>Built with ❤️ for African merchants</p>
         </div>
       </div>
     </footer>

@@ -23,7 +23,7 @@ export default function Testimonials() {
         >
           <span className="section-tag mb-4">Vendor Voices</span>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-            Already loved by merchants across Nigeria
+            Already loved by merchants across Africa
           </h2>
         </div>
 

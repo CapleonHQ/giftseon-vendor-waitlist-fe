@@ -54,14 +54,14 @@ export default function Hero({ onOpenWaitlist }) {
               </span>
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-[1.12] tracking-tight">
                 Grow Your Business<br />
-                on Nigeria's{' '}
+                on Africa's{' '}
                 <span className="text-gradient bg-gradient-to-r from-brand-300 to-purple-400 bg-clip-text text-transparent">
                   #1 Gift
                 </span>{' '}
                 Marketplace
               </h1>
               <p className="text-white/60 text-lg lg:text-xl leading-relaxed max-w-lg">
-                Join thousands of Nigerian merchants selling gifts, fashion, food, beauty, and more — with smart tools to track sales, manage orders, and scale faster.
+                Join thousands of African merchants selling gifts, fashion, food, beauty, and more — with smart tools to track sales, manage orders, and scale faster.
               </p>
             </div>
 

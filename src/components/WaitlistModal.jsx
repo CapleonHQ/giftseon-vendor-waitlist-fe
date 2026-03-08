@@ -267,7 +267,7 @@ export default function WaitlistModal({ isOpen, onClose }) {
                 </div>
                 <div>
                   <h2 className="text-lg font-bold text-gray-900">Join the Vendor Waitlist</h2>
-                  <p className="text-xs text-gray-400">Giftseon — Nigeria's Gift Marketplace</p>
+                  <p className="text-xs text-gray-400">Giftseon — Africa's Gift Marketplace</p>
                 </div>
               </div>
 

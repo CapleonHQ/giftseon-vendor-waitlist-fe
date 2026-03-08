@@ -113,7 +113,7 @@ export default function AccountingTools() {
               <span className="text-gradient">fully under control</span>
             </h2>
             <p className="text-gray-500 text-lg leading-relaxed">
-              We built accounting and operations tools specifically for Nigerian merchants — so you spend less time on admin and more time growing your brand.
+              We built accounting and operations tools specifically for African merchants — so you spend less time on admin and more time growing your brand.
             </p>
 
             <div className="space-y-4">
@@ -145,7 +145,7 @@ export default function AccountingTools() {
               <div className="absolute inset-0 bg-gradient-to-t from-brand/80 to-transparent flex items-end p-5">
                 <div className="text-white">
                   <div className="text-sm font-medium opacity-80">Vendor Dashboard Preview</div>
-                  <div className="text-lg font-bold">Built for Nigerian sellers</div>
+                  <div className="text-lg font-bold">Built for African sellers</div>
                 </div>
               </div>
             </div>

@@ -137,7 +137,7 @@ exports.sendOTP = onCall(
                     <tr>
                       <td style="background:#f9fafb;padding:20px 40px;border-top:1px solid #f0f0f0;">
                         <p style="margin:0;font-size:12px;color:#d1d5db;text-align:center;">
-                          © ${new Date().getFullYear()} Giftseon · Nigeria's Gift Marketplace
+                          © ${new Date().getFullYear()} Giftseon · Africa's Gift Marketplace
                         </p>
                       </td>
                     </tr>
