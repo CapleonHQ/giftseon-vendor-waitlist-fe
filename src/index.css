@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Dagular', 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ffffff;
+    color: #0f0f1a;
+  }
+
+  ::selection {
+    background: #1a1abc;
+    color: white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand text-white font-semibold px-8 py-4 rounded-xl
+           hover:bg-brand-600 active:scale-95 transition-all duration-200
+           shadow-lg shadow-brand/30 hover:shadow-xl hover:shadow-brand/40
+           focus:outline-none focus:ring-2 focus:ring-brand/50 focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply border-2 border-brand text-brand font-semibold px-8 py-4 rounded-xl
+           hover:bg-brand hover:text-white active:scale-95 transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-brand/50 focus:ring-offset-2;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border border-gray-200 bg-white
+           text-gray-900 placeholder-gray-400 text-sm
+           focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand
+           transition-all duration-200;
+  }
+
+  .input-field.error {
+    @apply border-red-400 focus:ring-red-200 focus:border-red-400;
+  }
+
+  .input-field.success {
+    @apply border-green-400 focus:ring-green-200 focus:border-green-400;
+  }
+
+  .card-glass {
+    @apply bg-white/80 backdrop-blur-sm border border-white/60 rounded-2xl shadow-xl;
+  }
+
+  .section-tag {
+    @apply inline-flex items-center gap-2 bg-brand/10 text-brand
+           text-xs font-semibold uppercase tracking-widest px-4 py-2 rounded-full;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand to-purple-600 bg-clip-text text-transparent;
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(26,26,188,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,26,188,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .bg-dot {
+    background-image: radial-gradient(circle, rgba(26,26,188,0.12) 1.5px, transparent 1.5px);
+    background-size: 28px 28px;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Smooth number counter animation */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-count-up {
+  animation: countUp 0.8s ease-out forwards;
+}
+
+/* Chart tooltip custom */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  border-radius: 12px !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  background: rgba(10, 10, 40, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Phone input custom styles */
+.PhoneInputInput {
+  outline: none !important;
+  background: transparent !important;
+  font-family: inherit !important;
+  font-size: 0.875rem !important;
+}
+
+.PhoneInputCountrySelect {
+  font-family: inherit !important;
+}

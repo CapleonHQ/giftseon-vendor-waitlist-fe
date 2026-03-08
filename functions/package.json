@@ -1,0 +1,22 @@
+{
+  "name": "giftseon-vendor-waitlist-functions",
+  "description": "Firebase Cloud Functions for Giftseon Vendor Waitlist",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.1",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {},
+  "private": true
+}
