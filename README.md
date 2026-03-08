@@ -1,0 +1,1 @@
+# giftseon-vendor-waitlist-fe
