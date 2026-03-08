@@ -4,6 +4,7 @@
 /build
 /tmp
 .claude
+node_modules
 # Logs
 logs
 *.log
