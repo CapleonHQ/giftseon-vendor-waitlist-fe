@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        dagular: ['Dagular', 'Inter', 'system-ui', 'sans-serif'],
+        degular: ['Degular', 'Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
         brand: {

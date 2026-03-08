@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Degular — local font */
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Thin.otf') format('opentype'); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-ThinItalic.otf') format('opentype'); font-weight: 100; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Light.otf') format('opentype'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-LightItalic.otf') format('opentype'); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-RegularItalic.otf') format('opentype'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-MediumItalic.otf') format('opentype'); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Semibold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-SemiboldItalic.otf') format('opentype'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-BoldItalic.otf') format('opentype'); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-Black.otf') format('opentype'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Degular'; src: url('/assets/fonts/Degular/Degular-BlackItalic.otf') format('opentype'); font-weight: 900; font-style: italic; font-display: swap; }
+
 @layer base {
   * {
     box-sizing: border-box;
@@ -12,7 +28,7 @@
   }
 
   body {
-    font-family: 'Dagular', 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'Degular', 'Inter', system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: #ffffff;

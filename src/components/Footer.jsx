@@ -23,14 +23,12 @@ export default function Footer({ onOpenWaitlist }) {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-9 h-9 bg-brand rounded-xl flex items-center justify-center">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L2 7l10 5 10-5-10-5z" fill="white" fillOpacity="0.9"/>
-                  <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
-              <span className="text-xl font-bold">Giftseon <span className="text-brand-300 text-sm font-semibold">Vendors</span></span>
+            <div className="flex items-center mb-4">
+              <img
+                src="/logo/giftseon-logo-white.png"
+                alt="Giftseon Vendors"
+                className="h-28 w-auto object-contain"
+              />
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
               Nigeria's premier gift marketplace, connecting vendors with gift shoppers across the country.
